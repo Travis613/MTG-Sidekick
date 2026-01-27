@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BBA4BC272F292F450057287C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BBA4BC262F292F3A0057287C /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BBA4BC0C2F292EF30057287C /* MTG Sidekick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTG Sidekick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA4BC262F292F3A0057287C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		BBA4BC032F292EF30057287C = {
 			isa = PBXGroup;
 			children = (
+				BBA4BC262F292F3A0057287C /* .gitignore */,
 				BBA4BC0E2F292EF30057287C /* MTG Sidekick */,
 				BBA4BC0D2F292EF30057287C /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA4BC272F292F450057287C /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
